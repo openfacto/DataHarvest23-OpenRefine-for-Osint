@@ -31,7 +31,7 @@ https://git-scm.com/downloads
 
 ### Installation 
 
-1 - Clone the repository: ```git clone https://framagit.org/hletoqueux/dex.git```
+1 - Clone the repository: ```git clone https://git.oh-w.tf/herve/Refine-Osint.git```
 (you can also download the zip archive and unzip it on your hard disk).
 
 2 - Build the image: ```docker-compose build```
