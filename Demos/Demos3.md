@@ -11,7 +11,9 @@ This can be done by using the API of [BinList](https://binlist.net/).
 
 Using the command line tool `curl`, you can request the website through its API as shown below: 
 
-```curl -H "Accept-Version: 3" "https://lookup.binlist.net/45717360"```
+```
+curl -H "Accept-Version: 3" "https://lookup.binlist.net/45717360"
+```
 
 So, just by using the first eight digits of a credit card, [https://lookup.binlist.net/45717360](https://lookup.binlist.net/45717360) will give a json file, quite handy to manipulate with OpenRefine.
 
@@ -32,7 +34,10 @@ _First : do a manual request to get the URL and the token._
 - Rename the first column as "Number".
 - Create a new column based on this column, that you name "url": 
 
-The expression will be ```"https://lookup.binlist.net/"+value.slice(0,8)```
+The expression will be 
+```
+"https://lookup.binlist.net/"+value.slice(0,8)
+```
 
 It means __"Concatenate the url "https://lookup.binlist.net/" and the value of the number, by only taking the first 8 digits".__
 
@@ -43,7 +48,7 @@ It means __"Concatenate the url "https://lookup.binlist.net/" and the value of t
 
 __BE NICE TO APIs!!...__
 
-__important : __
+Important : 
 
 The webservice indicates that it allows 10 requests per minute (one request every 6000ms). It's mandatory to respect this.
 This dataset contains 5037 entries, so the full action will take approximately 9 hours...
@@ -129,7 +134,9 @@ The command lines are now ready to be executed...
 - create a new column based on this column (you know that, now...)
 - We use ```value.partition(pivot)[0.1.2]``` to extract the data.
 
-```value.partition('brand":"')[2].partition('"')[0]```
+```
+value.partition('brand":"')[2].partition('"')[0]
+```
 
 ![Image of main window](images/3-10.png)
 
