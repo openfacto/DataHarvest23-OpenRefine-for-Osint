@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+  openrefine:
+    
+    image: openrefine
+    build: 
+      args:
+        - refine_version=${refine_version}
+      context: .
+    ports: 
+      - "127.0.0.1:80:3333"
+    volumes:
+      - ./data:/data
+    
+    deploy:
+      resources:
+        limits:
+          memory: 4000m
+          cpus: "2"
+        reservations:
+          memory: 2000m
+
+      

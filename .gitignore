@@ -1,0 +1,4 @@
+*.project
+.env
+workspace.json
+workspace.old.json

@@ -1,0 +1,157 @@
+_ - id,_ - cap,_ - comune,_ - indirizzo,lat,lon,_ - codice_nazione,_ - servizi_mobile_payment,_ - fatturazione_elettronica
+5213,63170,Aubiere,38-40 Avenue Du Roussillon,45.750217,3.133166,FRA,false,false
+5214,30100,Ales,2 Avenue Vincent D'indy,44.134435,4.091747,FRA,false,false
+5215,21230,Arnay-le-duc,10 Bis Rue Claude Guyot,47.129161,4.489,FRA,false,false
+5216,13090,Aix En Provence,67 Rue De Lattre De Tassigny,43.542864,5.4318,FRA,false,false
+5217,74000,Annecy,4 Bis Chemin Des Allueges,45.909939,6.117955,FRA,false,false
+5218,74000,Annecy,17 Avenue De Chambery,45.898238,6.116659,FRA,false,false
+5219,69480,Anse,831 Route De Villefranche,45.944514,4.714741,FRA,false,false
+5220,73390,Chateauneuf,A43 Aire De Arclusaz,45.548789,6.157811,FRA,false,false
+5221,37270,Athee Sur Cher,A85 Aire Du Val De Cher,47.302311,0.889311,FRA,false,false
+5222,45190,Messas,A10 Aire De Beaugency Messas*,47.81866,1.639263,FRA,false,false
+5223,25720,Beure,22 Route De Lyon,47.207217,5.999183,FRA,false,false
+5224,34500,Beziers,Route De Pezenas,43.358334,3.244013,FRA,false,false
+5225,67800,Bischheim,79 Route De Bischwiller,48.61797,7.754389,FRA,false,false
+5226,18500,Marmagne,A71 Aire De Bourges Marmagne,47.094861,2.243228,FRA,false,false
+5227,71140,Bourbon Lancy,47 Avenue Emile Et Claude Puzenat,46.624703,3.755099,FRA,false,false
+5228,38300,Bourgoin Jallieu,Rn 6 La Maladiere,45.585569,5.262478,FRA,false,false
+5230,83440,Callian,Rd 562,43.606983,6.749024,FRA,false,false
+5231,83170,Brignoles,A8 Aire De Cambarette Nord,43.423526,5.992559,FRA,false,false
+5232,34300,Agde,8 Avenue Des Sergents,43.285041,3.513801,FRA,false,false
+5233,33840,Captieux,A65 Aire De CŒur D'aquitaine,44.285416,-0.23038,FRA,false,false
+5234,73730,Cevins,Rn 90,45.593444,6.448116,FRA,false,false
+5235,71150,Chagny,Rn 6,46.921776,4.74737,FRA,false,false
+5236,71100,Chalon Sur Saone,20-22 Avenue Monot,46.789867,4.861173,FRA,false,false
+5237,69410,Champagne Au Mont D'or,3 Avenue GÉnÉral De Gaulle,45.800972,4.785831,FRA,false,false
+5238,69260,Charbonnieres,51-55 Route De Paris,45.78416,4.749472,FRA,false,false
+5239,69260,Charbonnieres,80 Route De Paris,45.778984,4.750981,FRA,false,false
+5241,63000,Clermont Ferrand,2 Avenue Marx Dormoy,45.771783,3.080841,FRA,false,false
+5242,68000,Colmar,42 Route D'ingersheim,48.084075,7.345734,FRA,false,false
+5243,74960,Cran Gevrier,20 Route Des Creuses,45.894297,6.106873,FRA,false,false
+5244,26400,Crest,Rue Adrien Fayolle,44.726238,5.029828,FRA,false,false
+5245,71200,Le Creusot,75 Route De Montcenis,46.80017,4.406527,FRA,false,false
+5246,88000,Epinal,51 Route De Remiremont,48.159979,6.450995,FRA,false,false
+5247,45300,Escrennes,Echangeur D'escrennes,48.11645,2.189726,FRA,false,false
+5248,42000,St Etienne,114-116 Rue Des Acieries,45.45986,4.396485,FRA,false,false
+5249,42000,Saint Etienne,21 Rue Necker,45.457142,4.406195,FRA,false,false
+5250,74500,Evian Les Bains,9 Avenue Anna De Noailles,46.399028,6.579578,FRA,false,false
+5251,38320,Eybens,40 Avenue Jean Jaures,45.162714,5.743662,FRA,false,false
+5254,57450,Farebersviller,37 Grande Rue,49.117196,6.884741,FRA,false,false
+5255,17350,Fenioux,A10 Aire De Fenioux Ouest,45.894633,-0.60319,FRA,false,false
+5256,73182,Mouxy,Aire De Service De Mouxy,45.674333,5.929394,FRA,false,false
+5257,68200,Mulhouse,184 Route De Belfort,47.739652,7.300456,FRA,false,false
+5258,68200,Mulhouse,151 Avenue De Colmar,47.758437,7.329879,FRA,false,false
+5259,75016,Paris,4 Avenue Foch,48.873704,2.291718,FRA,false,false
+5260,19600,St Pantaleon De Larche,A89 Aire Du Pays De Brive,45.160513,1.439622,FRA,false,false
+5261,46600,Cressensac,A20 Aire De Pech Montat,45.032725,1.524669,FRA,false,false
+5262,13170,Les Pennes Mirabeau,Rn 113,43.411149,5.309727,FRA,false,false
+5263,88200,St Nabord,Aire De Service De Peuxy,48.079467,6.595115,FRA,false,false
+5264,26380,Peyrins,Quartier Les Escoffers,45.085521,5.0476,FRA,false,false
+5265,86130,Jaunay-clan,A10 Aire De Poitiers Chince Nord,46.70162,0.37178,FRA,false,false
+5266,68520,Burnhaupt Le Bas,A36 Aire De Portes D'alsace Sud,47.715515,7.137504,FRA,false,false
+5267,26800,Portes Les Valences,15 Avenue Jean JaurÈs,44.8787,4.878155,FRA,false,false
+5268,77160,Provins,16 Avenue General De Gaulle,48.559395,3.286545,FRA,false,false
+5269,83480,Le Puget Sur Argens,Rn 7 La Tuiliere,43.442249,6.703712,FRA,false,false
+5270,60490,Ressons Sur Matz,A1 Aire De Ressons Ouest,49.518996,2.719592,FRA,false,false
+5271,38690,Le Grand Lemps,Echangeur De Rives,45.384592,5.472381,FRA,false,false
+5272,67570,Rothau,14 Rue Grand Rue,48.461122,7.210273,FRA,false,false
+5273,88100,Saint Die,4 Avenue De Verdun,48.293376,6.94192,FRA,false,false
+5274,70300,Saint Sauveur,37 Avenue Edouard Herriot,47.809049,6.383524,FRA,false,false
+5275,73600,Salins Les Thermes,427 Avenue Des Thermes,45.47482,6.528229,FRA,false,false
+5276,71410,Sanvignes Les Mines,128 Rue Francois Mitterrand,46.664589,4.286629,FRA,false,false
+5277,26270,Saulce Sur Rhone,A7 Aire De Saulce,44.719737,4.787182,FRA,false,false
+5279,69190,Saint-fons,130 Boulevard Yves Farges,45.695016,4.859157,FRA,false,false
+5280,73300,St Jean De Maurienne,Zone Commerciale Les Plans,45.268551,6.367147,FRA,false,false
+5281,67000,Strasbourg,9 Avenue Alsace,48.587127,7.760794,FRA,false,false
+5282,67100,Strasbourg,4 Route D'altenheim,48.543708,7.765165,FRA,false,false
+5283,39500,Tavaux,Zi Les Charmes,47.043946,5.421498,FRA,false,false
+5284,30126,Tavel,A9 Aire De Tavel Sud,43.998999,4.699435,FRA,false,false
+5285,74200,Thonon Les Bains,61 Avenue De Geneve,46.358887,6.452624,FRA,false,false
+5286,21120,Til Chatel,Rn 74,47.51249,5.172526,FRA,false,false
+5287,83200,Toulon,690 Rue David,43.139559,5.886384,FRA,false,false
+5288,83100,Toulon,2338 Avenue Joseph Gasquet,43.118749,5.979244,FRA,false,false
+5289,71700,Tournus,22 Avenue Clos Mouron,46.572524,4.904968,FRA,false,false
+5290,49340,Trementines,A87 Aire De Trementines,47.135486,-0.826673,FRA,false,false
+5291,77260,Ussy Sur Marne,A4 Aire D'ussy Sur Marne,48.970757,3.064472,FRA,false,false
+5292,26000,Valence,300 Avenue De Chabeuil,44.926903,4.915684,FRA,false,false
+5293,73390,Chateauneuf,A43 Aire De Val Gelon,45.547266,6.155563,FRA,false,false
+5294,38760,Varces,Zac Du Champ St Ange,45.09754,5.683143,FRA,false,false
+5295,69120,Vaulx En Velin,Avenue Gabriel Peri/ Rue P.teste,45.774196,4.913841,FRA,false,false
+5296,72400,Villaines La Gonais,A11 Aire De Villaines La Gonais,48.125041,0.621955,FRA,false,false
+5297,30400,Villeneuve Les Avignon,128 Av General Leclerc,43.958135,4.779461,FRA,false,false
+5298,94290,Villeneuve Le Roi,32 Avenue Le Foll,48.728742,2.431859,FRA,false,false
+5299,69100,Villeurbanne,112 B Rue Leon Blum,45.760054,4.901277,FRA,false,false
+5300,13743,Vitrolles Cedex,A7 Aire De Vitrolles Est,43.446471,5.242875,FRA,false,false
+5301,69390,Vourles,Rn 86 - Les Sept Chemins,45.657083,4.751322,FRA,false,false
+5302,13014,Marseille 14,26 Chemin De Sainte Marthe,43.318867,5.390376,FRA,false,false
+5303,67000,Strasbourg,59 Rue Boecklin,48.600114,7.779458,FRA,false,false
+5311,30300,Beaucaire,Z I Domitia,43.789,4.645,FRA,false,false
+5312,34120,Pezenas,18 Avenue De Verdun,43.455422,3.422754,FRA,false,false
+5313,83130,La Garde,A57 Aire Chaberte Amandiers,43.149667,6.033886,FRA,false,false
+5378,06540,Breil Sur Roya,839 Route De La Giandola,43.95771,7.520671,FRA,false,false
+5379,06800,Cagnes Sur Mer,26 Avenue De Cannes,43.653787,7.146867,FRA,false,false
+5380,06150,Cannes La Bocca,56 Avenue Du Docteur Picaud,43.550557,6.992282,FRA,false,false
+5381,01430,Ceignes,A40 Aire De Ceignes Haut Bugey,46.11828,5.491281,FRA,false,false
+5382,06670,Colomars,Rn 202,43.761554,7.202844,FRA,false,false
+5383,06800,Cros De Cagnes,Boulevard De La Plage,43.656752,7.173828,FRA,false,false
+5384,04320,Entrevaux,Le Village - Rd. 4202,43.950639,6.8172085,FRA,false,false
+5385,06160,Juan Les Pins,122-124 Boulevard PoincarÉ,43.572755,7.101567,FRA,false,false
+5386,03120,Lapalisse,94 Rue PrÉsident Roosevelt,46.247918,3.630035,FRA,false,false
+5387,07170,Lavilledieu,Quartier Fournache,44.57084,4.458785,FRA,false,false
+5388,07400,Le Teil,22-28 Boulevard Jean JaurÈs,44.548505,4.681504,FRA,false,false
+5389,01390,Mionnay,A46 Aire De Mionnay Est Chatanay,45.886809,4.894434,FRA,false,false
+5390,03100,Montlucon,106 Avenue J.f. Kennedy,46.327536,2.608524,FRA,false,false
+5391,06100,Nice,63 Boulevard Gorbella,43.723979,7.255881,FRA,false,false
+5392,06200,Nice,61 Avenue Ste Marguerite,43.67796,7.219237,FRA,false,false
+5393,75016,Paris,115 Avenue Malakoff,48.873161,2.284403,FRA,false,false
+5394,01960,Peronnas,148 Avenue De Lyon,46.190526,5.211091,FRA,false,false
+5395,06190,Roquebrune Cap Martin,83 Avenue De La Cote D'azur,43.762308,7.457472,FRA,false,false
+5396,06550,La Roquette Sur Siagne,235 Avenue De La Republique,43.575889,6.951628,FRA,false,false
+5397,03410,St Victor,13 Route De Paris,46.401711,2.610757,FRA,false,false
+5398,07000,Veyras,Le Ruissol,44.729328,4.568907,FRA,false,false
+5399,42370,Renaison,603 Rue Robert Barathon,46.052305,3.934694,FRA,false,false
+5406,13320,Bouc Bel Air,A7 Aire La Champouse   Sens Nord-sud,43.442,5.396,FRA,false,false
+5411,30960,Les Mages,Relais Des Cambons,44.218327,4.156405,FRA,false,false
+5446,42700,Firminy,Rue Des Abattoirs,45.39579,4.291213,FRA,false,false
+5447,69250,Fleurieu Sur Saone,54 Route De Lyon,45.855157,4.839915,FRA,false,false
+5448,13180,Gignac La Nerthe,A55 Aire De Gignac Rebuty,43.392238,5.256697,FRA,false,false
+5449,33170,Gradignan,A630 Aire De Thouars Nord Rocade Sud,44.78642,-0.594891,FRA,false,false
+5450,38000,Grenoble,5 Avenue Jean Perrot,45.18262,5.734188,FRA,false,false
+5451,38000,Grenoble,32 Avenue Rhin Et Danube,45.178734,5.704232,FRA,false,false
+5452,51390,Vrigny,A4 Aire De Gueux,49.244382,3.923131,FRA,false,false
+5453,68110,Illzach,76 Rue Des Vosges,47.778225,7.352117,FRA,false,false
+5454,38340,Voreppe,A48 Aire De L'isle Rose,45.276614,5.622816,FRA,false,false
+5455,39140,Arlay,A39 Aire De Jura,46.77581,5.522991,FRA,false,false
+5456,64170,Artix,A64 Aire De Lacq Audejos Nord,43.418835,-0.584123,FRA,false,false
+5457,64170,Audejos,A64 Aire De Lacq Audejos Sud,43.421469,-0.597952,FRA,false,false
+5458,72400,Villaines-la-gonais,A11 Aire De La Ferte Bernard,48.125801,0.62336,FRA,false,false
+5459,81500,Lavaur,Place Rene Cassin,43.695968,1.816234,FRA,false,false
+5460,58300,St Leger Des Vignes,4 Route Nationale,46.836926,3.46517,FRA,false,false
+5461,42152,L Horme,19 Bis Avenue Berthelot,45.490307,4.551624,FRA,false,false
+5462,69400,Liergues,2395 Route De Tarare,45.969499,4.672093,FRA,false,false
+5463,13600,La Ciotat,A50 Aire Du Liouquet,43.192531,5.665924,FRA,false,false
+5464,26250,Livron Sur Drome,Rn 7,44.77705,4.847473,FRA,false,false
+5465,21320,Eguilly,A6 Aire Des Locheres,47.309142,4.501457,FRA,false,false
+5466,45340,Beaune La Rolande,A19 Aire Du Loiret,48.08408,2.471232,FRA,false,false
+5467,54700,Pont A Mousson,A31 Aire De Loisy,48.860519,6.091536,FRA,false,false
+5468,88170,Sandaucourt,A31 Aire De Lorraine Sandaucourt La Trelle,48.268086,5.859788,FRA,false,false
+5469,69004,Lyon,97 Rue Denfert Rochereau,45.778798,4.827809,FRA,false,false
+5470,69004,Lyon,55 Bis Quai Gillet,45.780388,4.811873,FRA,false,false
+5471,69005,Lyon,131 Rue Joliot Curie,45.754481,4.78025,FRA,false,false
+5472,63410,Manzat,A89 Aire De Manzat,45.95731,2.989108,FRA,false,false
+5473,13015,Marseille,20-22 Rn De St Antoine,43.367571,5.35683,FRA,false,false
+5474,13008,Marseille,175 Avenue Clot Bey,43.254891,5.382217,FRA,false,false
+5475,13015,Marseille,516 Avenue Du Chemin De Madrague,43.345803,5.354896,FRA,false,false
+5476,13011,Marseille,171-173 Boulevard St Loup,43.284795,5.437363,FRA,false,false
+5477,13007,Marseille,95 Avenue Des Roches,43.278559,5.363415,FRA,false,false
+5478,13013,Marseille,59 Avenue De St Just,43.31683,5.404457,FRA,false,false
+5479,57000,Metz,Boulevard Du Pontiffroy,49.126239,6.17861,FRA,false,false
+5480,45190,Messas,A10 Aire De Meung Sur Loire,47.820795,1.641572,FRA,false,false
+5481,38240,Meylan,45 Avenue Des 7 Laux,45.215341,5.781546,FRA,false,false
+5482,34140,Meze,Rn 113,43.430781,3.610432,FRA,false,false
+5483,73140,St Martin D'arc,A43 Aire De Saint Michel De Maurienne,45.217762,6.462581,FRA,false,false
+5484,26740,Montboucher Sur Jabron,410 Route De Montelimar,44.547747,4.801614,FRA,false,false
+5485,34070,Montpellier,114-116 Avenue De Palavas,43.596313,3.88733,FRA,false,false
+5486,34080,Montpellier,544 Avenue Paul Rimbaud,43.618232,3.843736,FRA,false,false
+5487,34000,Montpellier,Zac De Tournezy,43.578847,3.876747,FRA,false,false
+5488,73290,La Motte Servolex,Avenue Jean Rostand,45.592671,5.883917,FRA,false,false
