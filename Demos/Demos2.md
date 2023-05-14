@@ -17,7 +17,9 @@ Using the developer tools of Firefox/Chrome, we extract the list of ENI/AGIP gas
 
 - __right click__ on the request; select copy > copy as curl. You can now replay this request in a terminal and export it as a json file, by adding ```> eni.json``` at the end.
 
-```curl 'https://stationfinder.enistation.com/enistationfinder_be/public/index.php/api/get_station_list' -X POST -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3' --compressed -H 'Content-Type: application/json' -H 'Origin: https://stationfinder.enistation.fr' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: https://stationfinder.enistation.fr/' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: cross-site' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers' --data-raw '{"credentials":{"token":"0676d96d8d3ccd46e82694e8cafb2b2152c9c9ba478322109f6663e2b8d576a3","requestId":1635865741,"device":"sdk"},"body":{"isFiltered":1,"sorgente":1,"filters":{}}}' > eni.json```
+```
+curl 'https://stationfinder.enistation.com/enistationfinder_be/public/index.php/api/get_station_list' -X POST -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3' --compressed -H 'Content-Type: application/json' -H 'Origin: https://stationfinder.enistation.fr' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: https://stationfinder.enistation.fr/' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: cross-site' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers' --data-raw '{"credentials":{"token":"0676d96d8d3ccd46e82694e8cafb2b2152c9c9ba478322109f6663e2b8d576a3","requestId":1635865741,"device":"sdk"},"body":{"isFiltered":1,"sorgente":1,"filters":{}}}' > eni.json
+```
 
 
 ![Image of main window](images/2-2.png)

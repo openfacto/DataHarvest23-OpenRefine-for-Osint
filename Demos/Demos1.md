@@ -34,11 +34,15 @@ You will receive the geolocation data as JSON format.
 
 Create a new column _lat_ base ont his result using the following GREL command : 
 
-```value.parseJson()[0].lat```
+```
+value.parseJson()[0].lat
+```
 
 Do the same for a column _lon_ using this formula : 
 
-```value.parseJson()[0].lat```
+```
+value.parseJson()[0].lat
+```
 
 
 Remove the useless columns. ou have now three columns : address, lat, lon
@@ -102,7 +106,9 @@ We create an URL based on Lon1 column :
 
 - Parse this column using this formula to get the distance in kilometers.
 
-```(value.parseJson().routes[0].distance).toNumber()/1000```
+```
+(value.parseJson().routes[0].distance).toNumber()/1000
+```
 
 
 
