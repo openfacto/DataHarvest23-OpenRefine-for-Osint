@@ -14,7 +14,7 @@ In this example we will geocode a bunch of adresses and calculate some distances
 
 We will use the API proposed by [Nominatim](https://nominatim.org/release-docs/latest/api/Lookup/), a free geolocation service based on OpenStreetMap.
 
-__Be nice with APIs, the limit is one request per second.__
+Be nice with APIs, the limit is one request per second.
 
 Create a new column called _request_ using the formula : 
 
@@ -22,7 +22,7 @@ Create a new column called _request_ using the formula :
 
 Please note that we replace the space character by a plus at the same time.
 
-Create a column based on this column, using the function __FETCH URL__
+Create a column based on this column, using the function FETCH URL
 
 __Important Throttle delay > 1500ms to respect the API.__
 
@@ -46,6 +46,7 @@ Remove the useless columns. ou have now three columns : address, lat, lon
 Our goal is to calculate the distances from the addresses in Spain France and Germany, to the Campus in Mechelen.
 We will use this [OSMR](http://project-osrm.org/docs/v5.24.0/api/#services) project API but first, we need to restructure the project.
 
+### Preparing the dataset
 
 The Mechelen Address should be in the first column as it's our point of reference.
 
@@ -76,7 +77,7 @@ We rename Campus 3 as "Campus", Campus 4 as "Lon1" and Campus 5 as "Lat1".
 
 ![Image of main window](images/rename.png)
 
-We now use the fill fonction ont Campus, Lat1 and Lat2.
+We now use the fill fonction on Campus, Lat1 and Lat2.
 
 ![Image of main window](images/fill.png)
 
@@ -84,9 +85,22 @@ And we can remove the useless first row (starred).
 
 ![Image of main window](images/three.png)
 
+### Calculate distances
 
-## Conclusion
+We use the [OSMR](http://project-osrm.org/docs/v5.24.0/api/#services) project API.
 
-These are just simple examples to show you some interesting possibilities offered by OpenRefine to cleanse a dataset.
+We create an URL based on Lon1 column : 
 
-Let's apply this to OSINT with our [second example](Demos2.md)!
+```
+"http://router.project-osrm.org/route/v1/driving/"+value+","+cells['Lat1'].value+";"+cells['Lon'].value+","+cells['Lat'].value+"?overview=false"
+```
+
+- Based on this new column, create a Fetch URL column __but be aware of the throttle delay of 5000ms minimum between two requests.
+
+
+- Parse this column using this formula to get the distance in kilometers.
+
+```(value.parseJson().routes[0].distance).toNumber()/1000```
+
+
+

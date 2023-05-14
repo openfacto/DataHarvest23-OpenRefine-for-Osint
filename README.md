@@ -13,7 +13,7 @@ With this repository, we will help you install a pimped docker version of [OpenR
 
 What do I mean by "pimped"? well...
 
-This version adds a plugin called vib-bits, some command line tools (cli) such as ddgr, trafilatura, and toutatis to boost OpenRefine's potential.
+This version adds a plugin called vib-bits, some command line tools (cli) such as ddgr, and trafilatura to boost OpenRefine's potential.
 
 The container also embeds a TOR service that allows you to *torify* command line instruction (for anonymization).
 
@@ -41,10 +41,10 @@ We will you the last version of OpenRefine (3.7.2)
 3- Enjoy a cup of coffee, the container takes up to 4mn to build...
 
 
-### Start the container 
+### Start/Stop the container 
 
 
-This project also includes a docker-compose file that allows you to easily pass some parameters to the container, such as the openrefine version, memory and cpuu limits, etc...
+This project also includes a docker-compose file that allows you to easily pass some parameters to the container, such as the OpenRefine version, memory and cpu limits, etc...
 
 ```
 docker-compose --compatibility up -d
@@ -92,7 +92,7 @@ For this demo, we also recommend to install several tools on your machine (not m
 - It's generally a good idea to have wget, curl, grep (or ripgrep), tar, python3 and python3-pip on your machines
 - whois, dnsutils, and geoip-bin
 - [ddgr](https://github.com/jarun/ddgr/releases), to interact with duckduckgo using the command line
-- [toutatis](https://github.com/megadose/toutatis) , a tool to retrieve informations from instagram accounts.
+- [trafilatura](https://trafilatura.readthedocs.io/en/latest/) , a tool to scrape text from webpage.
 
 Our Docker version now includes [JQ](https://stedolan.github.io/jq/) for parsing json files., and [JC](https://github.com/kellyjonbrazil/jc), a tool that jsonize the command line output.
 
@@ -108,11 +108,12 @@ Example : ```torify curl https://ipinfo.io/ip``` will display your IP via TOR.
 
 Now that OpenRefine is installed on your machine, let's practice using some examples and use-cases.
 
-- ONE - [How to import, cluster, and extract data from a messy dataset](Demos/Demos1.md).
+- ONE - [How to Geocode and enrich using APIs](Demos/Demos1.md).
 - TWO - [Let's import some OSINT-obtained json data and map them](Demos/Demos2.md).
-- THREE - [How about using APIs to enrich your data](Demos/Demos3.md)?
+- THREE - [How about using more APIs to enrich your data](Demos/Demos3.md)?
 - FOUR - [Cherry on the cake; let's enrich our data using the command line](Demos/Demos4.md)!
-- FIVE - [FIVE - Enrich our data using osint TOOLS](Demos/Demos5.md)...
+- FIVE - [Scrape & Enrich your data using TRAFILATURA]((Demos/Demos3.md))
+
 
 ## Hints
 
@@ -154,4 +155,8 @@ If we apply the jython script to this, the IP address will be different for both
 
 
 [Trafilatura](https://trafilatura.readthedocs.io/en/latest/) is a command-line tool that allows you to scrape webpages (for example to retrieve the full text of an article)
+
+Install it with pip3 (Python) :
+
+```pip3 install trafilatura```
 
