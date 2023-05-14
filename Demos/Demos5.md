@@ -56,10 +56,11 @@ We will work on the copy of the column
 
 ### Clean a little bit the text 
 
-- Remove the unused space character by doing ```cell->common transform->collapse consecutive whitespace```
+- Remove the unused space character by doing `cell->common transform->collapse consecutive whitespace`
+
 
 - Replace some characters which may cause issues :
-```value.replace(/@|\+|#|\?|&|=|\//,"")```
+`value.replace(/@|\+|#|\?|&|=|\//,"")`
 
 - Remove emojis.
 
