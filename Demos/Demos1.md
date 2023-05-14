@@ -18,9 +18,11 @@ Be nice with APIs, the limit is one request per second.
 
 Create a new column called _request_ using the formula : 
 
-```"https://nominatim.openstreetmap.org/search.php?q="+value.replace(' ','+')+"&format=jsonv2"```
+```
+"https://nominatim.openstreetmap.org/search.php?q="+value.replace(' ','+')+"&format=jsonv2"
+```
 
-Please note that we replace the space character by a plus at the same time.
+Please note that we replace the space character by a plus sign at the same time.
 
 Create a column based on this column, using the function FETCH URL
 
