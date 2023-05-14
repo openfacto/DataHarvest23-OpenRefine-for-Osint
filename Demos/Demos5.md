@@ -65,7 +65,8 @@ We will work on the copy of the column
 
 Use the transform function in Jython : 
 
-```import re
+```
+import re
 
 def remove_emojis(data):
     emoj = re.compile("["
@@ -99,18 +100,24 @@ return remove_emojis(value)
 The TextRazor API requires a POST request instead of a GET request. You cannot simply craft a URL to access it; it's mandatory to pas some parameter via a CURL command.
 
 
-```curl -s -X POST -H "x-textrazor-key: YOUR_API_KEY_HERE" -d "extractors=entities" -d "text=YOUR_TEXT_TO_BE_ANALIZED_HERE" https://api.textrazor.com/```
+```
+curl -s -X POST -H "x-textrazor-key: YOUR_API_KEY_HERE" -d "extractors=entities" -d "text=YOUR_TEXT_TO_BE_ANALIZED_HERE" https://api.textrazor.com/
+```
 
 
 
 In OpenRefine we we'll first need backslashed doble-quotes. We will use this code : 
 
-```curl -s -X POST -H \"x-textrazor-key: YOUR_API_KEY_HERE\" -d \"extractors=entities\" -d \"text=YOUR_TEXT_TO_BE_ANALIZED_HERE\" https://api.textrazor.com/```
+```
+curl -s -X POST -H \"x-textrazor-key: YOUR_API_KEY_HERE\" -d \"extractors=entities\" -d \"text=YOUR_TEXT_TO_BE_ANALIZED_HERE\" https://api.textrazor.com/
+```
 
 
 Create a column based on the cleansed column using this GREL expression and replace YOUR_API_KEY_HERE by your real API key: 
 
-```"curl -s -X POST -H \"x-textrazor-key: YOUR_API_KEY_HERE\" -d \"extractors=entities\" -d \"text="+value+" \" https://api.textrazor.com/"```
+```
+"curl -s -X POST -H \"x-textrazor-key: YOUR_API_KEY_HERE\" -d \"extractors=entities\" -d \"text="+value+" \" https://api.textrazor.com/"
+```
 
 
 __Then create a new columm based on this column, using the Jython script.__
@@ -122,7 +129,9 @@ You will get from TextRazor the list of entities in your blog posts.
 
 To extract the text, we will simply parse the JSON response like this : 
 
-```forEach(value.parseJson().response.entities,v,v.entityEnglishId).sort().uniques().join(',')```
+```
+forEach(value.parseJson().response.entities,v,v.entityEnglishId).sort().uniques().join(',')
+```
 
 This loop formula will retrieve every unique entity in the text.
 
