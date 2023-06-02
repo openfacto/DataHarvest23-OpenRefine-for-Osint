@@ -11,7 +11,7 @@ Our suggestion is to automate a *whois* on these IP, and to parse the result and
 ### Import the data
 
 - create a new project in OpenRefine by importing the csv file. Beware to select the commas separator. The project should content 3 columns and 11352 lines.
-- create a new column "command" based on IP, using the formula ```"curl "+value```. 
+- create a new column "command" based on IP, using the formula ```"wh "+value```. 
 - filter the country, by doing a text facet and click on the country of your choice (FR for example).
 - randomly select 10 IPs in the dataset for the demo, by starring them.
 - in the column "All", select __facet by star__ then __true__ to only display these IPs.
@@ -23,7 +23,7 @@ Our suggestion is to automate a *whois* on these IP, and to parse the result and
 
 
 __Important___ You can add a layer of anonymization, by using the *torify* command, which will wrap the command into TOR.
-Instead of ```"curl "+value```, simply use ```"torify curl "+value```.
+example : Instead of ```"curl "+value```, simply use ```"torify curl "+value```.
 
 
 ### Parse the data
