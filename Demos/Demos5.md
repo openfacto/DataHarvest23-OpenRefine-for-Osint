@@ -25,10 +25,12 @@ Go to https://www.textrazor.com/, create a free account. It will give you access
 
 - create a new project in OpenRefine by importing the csv file called ```moutons.csv```.
 
-- create a new column based on the url column with the trafilatura command.
+- create a new column based on the url column with the trafilatura command : 
+``` "trafilatura -u "+value ```
+
 
 __Important__ You can add a layer of anonymization, by using the *torify* command, which will wrap the command into TOR.
-Instead of ```"curl "+value```, simply use ```"torify torify -u "+value```.
+Instead of ```"curl "+value```, simply use ```"torify curl -u "+value```.
 
 - Create a new column based on this column, a Jython script : 
 
